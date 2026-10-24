@@ -1,0 +1,9 @@
+{
+  "_note": "Case-insensitive regular expressions matched against Oracle error texts. Entries marked PROVISIONAL must be replaced with the exact texts observed on the test pod (docs/TEST_POD_CHECKLIST.md). Keep them specific.",
+  "_member_not_found": "CONFIRMED on test pod 2026-10-23: Get Member answers HTTP 400 'The member P05 does not exist for the specified cube or you do not have access to it.'",
+  "member_not_found_patterns": ["member .* does not exist"],
+  "_schedule_exists": "CONFIRMED on test pod 2026-10-23: deploy POST answers HTTP 400 'You must specify a unique schedule name.' when the name is taken (checked before any job starts).",
+  "schedule_exists_patterns": ["unique schedule name", "already exists"],
+  "_template_not_found": "PROVISIONAL (test T13)",
+  "template_not_found_patterns": ["template\\b.*\\b(not found|does not exist|doesn't exist|is invalid)"]
+}

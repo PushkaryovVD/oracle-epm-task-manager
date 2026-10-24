@@ -1,0 +1,11 @@
+{
+  "id": "fiscal_april",
+  "display_name": "Fiscal year starting April (P01 = April, FY named by end year)",
+  "fiscal_year_start_month": 4,
+  "fiscal_year_named_by": "end",
+  "year_member_format": "FY{YY}",
+  "periods": {
+    "4": "P01", "5": "P02", "6": "P03", "7": "P04", "8": "P05", "9": "P06",
+    "10": "P07", "11": "P08", "12": "P09", "1": "P10", "2": "P11", "3": "P12"
+  }
+}

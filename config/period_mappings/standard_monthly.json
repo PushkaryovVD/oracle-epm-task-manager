@@ -1,0 +1,11 @@
+{
+  "id": "standard_monthly",
+  "display_name": "Standard monthly (Jan-Dec, FY = calendar year)",
+  "fiscal_year_start_month": 1,
+  "fiscal_year_named_by": "end",
+  "year_member_format": "FY{YY}",
+  "periods": {
+    "1": "Jan", "2": "Feb", "3": "Mar", "4": "Apr", "5": "May", "6": "Jun",
+    "7": "Jul", "8": "Aug", "9": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+  }
+}

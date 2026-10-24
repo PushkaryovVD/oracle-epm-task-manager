@@ -1,0 +1,13 @@
+{
+  "_source": "EPM Automate deployTaskManagerTemplate 'Applies to' list; createReconciliations for ARCS (see docs/DESIGN.md §2).",
+  "service_types": [
+    {"id": "FCCS", "display_name": "Financial Consolidation and Close", "capabilities": ["tm_deploy"]},
+    {"id": "TRCS", "display_name": "Tax Reporting", "capabilities": ["tm_deploy"]},
+    {"id": "PLANNING", "display_name": "Planning / Planning Modules", "capabilities": ["tm_deploy"]},
+    {"id": "FREEFORM", "display_name": "FreeForm", "capabilities": ["tm_deploy"]},
+    {"id": "EPCM", "display_name": "Enterprise Profitability and Cost Management", "capabilities": ["tm_deploy"]},
+    {"id": "SWP", "display_name": "Strategic Workforce Planning", "capabilities": ["tm_deploy"]},
+    {"id": "SALES_PLANNING", "display_name": "Sales Planning", "capabilities": ["tm_deploy"]},
+    {"id": "ARCS", "display_name": "Account Reconciliation", "capabilities": ["arcs_create_reconciliations"]}
+  ]
+}

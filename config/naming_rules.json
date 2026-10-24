@@ -1,0 +1,7 @@
+{
+  "_note": "max_length and forbidden_chars are provisional (not documented by Oracle). While enforce_provisional_limits is false they only produce warnings; set it to true once the limits are confirmed on a test pod (DESIGN.md §10a Q4).",
+  "enforce_provisional_limits": false,
+  "max_length": 80,
+  "forbidden_chars": "\\/:*?\"<>|",
+  "max_months_per_run": 60
+}

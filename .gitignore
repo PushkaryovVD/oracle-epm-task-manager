@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# PyInstaller / packaging output
+build/
+dist/
+*.spec.bak
+
+# Local secrets and scratch (never commit)
+*.env
+.env
